@@ -30,7 +30,7 @@ const productos = [
 
 // 1: Imprimir productos
 productos.forEach(producto => {
-    console.log(`Producto: ${producto.nombre}, Precio: $${producto.precio}`);
+    console.log(`Producto: ${producto.nombre}, Precio: ${producto.precio}`);
 })
 
 
